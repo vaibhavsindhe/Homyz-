@@ -20,11 +20,11 @@ export default function App() {
         <SwiperSlide className='photo-slide'><img src="/r3.png" alt="image" className='slide-image' /></SwiperSlide>
         <SwiperSlide className='photo-slide'><img src="/r5.png" alt="image" className='slide-image' /></SwiperSlide>
         <SwiperSlide className='photo-slide'><img src="/r6.png" alt="image" className='slide-image' /></SwiperSlide>
-        <SwiperSlide className='photo-slide'><img src="/r2.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/Contact.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/value.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/img9.png" alt="image" className='slide-image' /></SwiperSlide>
         <SwiperSlide className='photo-slide'><img src="/r4.png" alt="image" className='slide-image' /></SwiperSlide>
-        <SwiperSlide className='photo-slide'><img src="/r.png" alt="image" className='slide-image' /></SwiperSlide>
-        <SwiperSlide className='photo-slide'><img src="/value.png" alt="image" className='slide-image' /></SwiperSlide>
-        <SwiperSlide className='photo-slide'><img src="/value.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r2.png" alt="image" className='slide-image' /></SwiperSlide>
       </Swiper>
     </>
   );
