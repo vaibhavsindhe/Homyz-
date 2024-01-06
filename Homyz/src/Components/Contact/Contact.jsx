@@ -95,7 +95,7 @@ export default function Contact(){
             {/* right-side */}
             <div className="contact-right">
                 <div className="image-container">
-                    <img src="/Contact.png" alt="" />
+                    <img src="/contact.png" alt="" />
                 </div>
             </div>
 

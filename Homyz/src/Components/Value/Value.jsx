@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from "react";
+import React, { useState} from "react";
 import {
     Accordion,
     AccordionItem,
@@ -12,6 +12,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./Value.css";
 import data from "../../utils/accordion";
 export default function Value(){
+    const [expandedItems, setExpandedItems] = useState([0]);
     return(
         <section id="Value" className="v-wrapper">
             <div className="paddings innerWidth flexCenter v-container">
@@ -36,6 +37,7 @@ export default function Value(){
                     className="accordion"
                     allowMultipleExpanded={false}
                     preExpanded={[0]}
+                    onChange={(expandedItems) => setExpandedItems(expandedItems)}
                     >
                         {
                             data.map((item,i)=>{
@@ -44,11 +46,6 @@ export default function Value(){
                                     <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
                                         <AccordionItemHeading>
                                             <AccordionItemButton className="flexRow accordionButton">
-
-                                                <AccordionItemState>
-                                                {({expanded})=>expanded?setClassName("expanded"):setClassName("collapsed")}
-                                                </AccordionItemState>
-
                                                 <div className="flexCenter icon">
                                                     {item.icon}
                                                 </div>

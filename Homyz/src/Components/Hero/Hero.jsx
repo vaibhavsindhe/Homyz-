@@ -7,7 +7,7 @@ import Slide from '../Slide/Slide';
 
 export default function Hero(){
     return (
-        <section className="hero-wraper">
+        <section id="hero" className="hero-wraper">
             <div className="paddings innerWidth flexRow hero-container">
                 
                 {/* left-side */}
@@ -41,7 +41,7 @@ export default function Hero(){
                         </div>
                         <div className="flexColCenter stat">
                             <span><CountUp start={0} end={28} duration={4}/><span>+</span></span>
-                            <span className="secondaryText">Award winnengs</span>
+                            <span className="secondaryText">Award winnings</span>
                         </div>
                     </div>
                 </div>
