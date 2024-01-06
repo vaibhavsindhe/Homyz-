@@ -6,7 +6,7 @@ import { IoMail } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io";
 export default function Contact(){
     return(
-        <section className="contact-wrapper">
+        <section id="Contact" className="contact-wrapper">
           <div className="paddings innerWidth flexRow contact-container">
             {/* left-side */}
             <div className="flexColStart contact-left">

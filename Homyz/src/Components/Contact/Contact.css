@@ -4,7 +4,7 @@
     row-gap: 2rem;
     flex-wrap: wrap;
 }
-.contact-container div{
+.contact-container .contact-left,.contact-container .contact-right{
     flex: 1;
 }
 .contact-right{

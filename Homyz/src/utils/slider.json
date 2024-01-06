@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Sunshine Villa",
+    "price": "2,75,47,999",
+    "detail": " 456 Radiant Road, Brightville,Sparkling City, Illuminated State",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Royal Residency",
+    "price": "4,97,66,999",
+    "detail": " 123 Serene Street, Blissful Nagar,Peaceful City, Harmony State",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Mystique Manor",
+    "price": "3,58,53,999",
+    "detail": " 567 Melody Street, Symphony Square,Musical City, Rhythmic State",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Emerald Estate",
+    "price": "5,94,47,999",
+    "detail": " 101 Royal Avenue, Regal Heights, Grand City, Noble State",
+    "image":  "./r4.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Ivory Towers",
+    "price": "3,87,66,999",
+    "detail": "234 Fantasy Lane, Enchanted Gardens, Mystical Town, Wonderland State",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Harmony House",
+    "price": "9,43,35,999",
+    "detail": " 123 Serene Street, Blissful Nagar, Peaceful City, Harmony State",
     "image": "./r3.png"
   }
 ]

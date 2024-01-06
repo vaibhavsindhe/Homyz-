@@ -1,7 +1,7 @@
 .v-container .image-container{
     border: 8px solid rgb(232, 232, 232 / 93%);
 }
-.v-container div{
+.v-container .v-left , .v-container .v-right {
     flex: 1;
 }
 .v-right{
@@ -33,6 +33,7 @@
     cursor: pointer;
 }
 .icon{
+    width: 1ren;
     padding: 10px;
     background: #eeeeff;
     border-radius: 5px;  

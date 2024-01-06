@@ -13,7 +13,7 @@ import "./Value.css";
 import data from "../../utils/accordion";
 export default function Value(){
     return(
-        <section className="v-wrapper">
+        <section id="Value" className="v-wrapper">
             <div className="paddings innerWidth flexCenter v-container">
                 {/* left-side */}
                 <div className="v-left">

@@ -67,16 +67,14 @@
 }
 
 /* right-side */
-.image-container{
+.hero-image-box{
+    justify-content: center;
+    align-items: center;
     width: 30rem;
     height: 35rem;
     overflow: hidden;
-    border-radius: 15rem 15rem 0 0;
+    /* border-radius: 15rem 15rem 0 0; */
     border: 8px solid rgba(255, 255, 255, 0.12);
-}
-.image-container img{
-    width: 100%;
-    height: 100%;
 }
 
 @media (max-width:640px) {
@@ -87,7 +85,7 @@
         font-size: 2.5rem;
         line-height: 3rem;
     } 
-    .image-container{
+    .hero-image-box{
         width: 95%;
         height: 25rem;
     }

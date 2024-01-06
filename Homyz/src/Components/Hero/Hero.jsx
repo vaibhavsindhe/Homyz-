@@ -3,6 +3,7 @@ import "./Hero.css";
 import { IoLocationOutline } from "react-icons/io5";
 import CountUp from "react-countup";
 import {motion} from "framer-motion";
+import Slide from '../Slide/Slide';
 
 export default function Hero(){
     return (
@@ -47,16 +48,16 @@ export default function Hero(){
 
                 {/* right-side */}
                 <div className="flexCenter hero-right">
-                    <motion.div 
-                    initial={{x:"7rem",opacity:0}}
-                    animate={{x:0,opacity:1}}
-                    transition={{
-                        duration:2,
-                        type:"spring"
-                    }}
-                    className="image-container">
-                        <img src="/hero-image.png" alt="hero-image" />
-                    </motion.div>
+                        <motion.div 
+                        initial={{x:"7rem",opacity:0}}
+                        animate={{x:0,opacity:1}}
+                        transition={{
+                            duration:2,
+                            type:"spring"
+                        }}
+                        className="flexCol hero-image-box">
+                            <Slide/>
+                        </motion.div>
                 </div>
             </div>
         </section>

@@ -4,10 +4,11 @@ import "swiper/css";
 import "./Resedency.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
+import { FaRupeeSign } from "react-icons/fa";
 
 export default function Resedency(){
     return(
-        <section className="r-wrapper">
+        <section id="Resedency" className="r-wrapper">
             <div className="paddings innerWidth r-container">
                 <div className="flexCol r-head">
                     <span className="orangeText">Best Choices</span>
@@ -22,7 +23,7 @@ export default function Resedency(){
                                 <div className="flexColStart r-card">
                                     <img src={card.image} alt="home" />
                                     <span className="secondaryText r-price">
-                                        <span style={{color:"orange"}}>Rs</span><span>{card.price}</span>
+                                        <span style={{color:"orange"}}><FaRupeeSign /></span><span>{card.price}</span>
                                     </span>
                                     <span className="primaryText">{card.name}</span>
                                     <span className="secondaryText">{card.detail}</span>

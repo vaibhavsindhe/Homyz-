@@ -17,16 +17,16 @@ export default function Header(){
                     <div className="h-menu flexCenter"
                     style={getMenuStyles(menuOpened)}
                     >
-                        <a href="">Residencies</a>
-                        <a href="">Contact Us</a>
-                        <a href="">Our value</a>
-                        <a href="">Get started</a>
+                        <a href="#Resedency">Residencies</a>
+                        <a href="#Contact">Contact Us</a>
+                        <a href="#Value">Our value</a>
+                        <a href="#GetStarted">Get started</a>
                         <button className="button">
                             <a href="">Contact</a>
                         </button>
                     </div>
                 </OutsideClickHandler>
-                <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
+                <div className="menu-icon" style={{ color: menuOpened ? 'blue' : 'white' }} onClick={()=> setMenuOpened((prev)=>!prev)}>
                     <FaBarsProgress size={30}/>
                 </div>
             </div>
