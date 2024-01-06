@@ -24,15 +24,15 @@
     "image":  "./r4.png"
   },
   {
-    "name": "Ivory Towers",
+    "name": " Dreamland Villa",
     "price": "3,87,66,999",
     "detail": "234 Fantasy Lane, Enchanted Gardens, Mystical Town, Wonderland State",
-    "image": "./r2.png"
+    "image": "./r5.png"
   },
   {
     "name": "Harmony House",
     "price": "9,43,35,999",
     "detail": " 123 Serene Street, Blissful Nagar, Peaceful City, Harmony State",
-    "image": "./r3.png"
+    "image": "./r6.png"
   }
 ]

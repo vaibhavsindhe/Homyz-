@@ -1,21 +1,17 @@
 .mySwiper {
   /* width: 290px;
   height: 370px; */
-  width: 20rem;
-  height: 25rem;
+  width: 23rem;
+  height: 28rem;
 }
 
 .slide-image{
-  height: 25rem;
+  width: 23rem;
+  height: 28rem;
 }
 .swiper-slide{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
+  border: 2px solid white;
 }
 
 /* .swiper-slide:nth-child(1n) {

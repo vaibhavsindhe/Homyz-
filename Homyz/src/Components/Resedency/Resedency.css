@@ -21,6 +21,7 @@
     width: 100%;
     max-width: 15rem;
     height: 13rem;
+    border-radius: 5px;
 }
 .r-card>:nth-child(2){
     font-size: 1.2rem;

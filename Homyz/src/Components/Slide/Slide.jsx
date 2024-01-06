@@ -16,15 +16,15 @@ export default function App() {
         modules={[EffectCards]}
         className="mySwiper"
       >
-        <SwiperSlide className='photo-slide'><img src="/value.png" alt="" className='slide-image' /></SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 2</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 3</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 4</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 5</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 6</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 7</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 8</SwiperSlide>
-        <SwiperSlide className='photo-slide'>Slide 9</SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r1.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r3.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r5.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r6.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r2.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r4.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/r.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/value.png" alt="image" className='slide-image' /></SwiperSlide>
+        <SwiperSlide className='photo-slide'><img src="/value.png" alt="image" className='slide-image' /></SwiperSlide>
       </Swiper>
     </>
   );
